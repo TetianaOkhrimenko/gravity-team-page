@@ -1,0 +1,484 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: rgba(20, 22, 25, 1);
+  color: #ffffff;
+}
+h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 76px;
+  line-height: 150%;
+  align-items: center;
+}
+footer {
+  padding: 97px 160px 64px 160px;
+  border-top: 1px solid grey;
+}
+footer a {
+  color: #bcbcbc;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+footer .footer-first-link {
+  color: #ffffff;
+}
+.heading {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 78px;
+}
+.title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.smaller-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.hero .logo {
+  margin-right: 38px;
+}
+.hero header {
+  display: flex;
+  padding: 23px 64px;
+  text-transform: uppercase;
+}
+.hero ul {
+  margin: 0;
+  padding: 0;
+}
+.hero li {
+  list-style: none;
+  display: inline;
+}
+.hero li:nth-child(-n + 3) {
+  margin-right: 24px;
+}
+.hero a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 400ms ease-in-out;
+}
+.hero header a:hover {
+  color: #365777;
+}
+
+.hero .menu {
+  padding: 10px 212px;
+  margin-right: 72px;
+}
+
+.hero .arrow {
+  display: inline-block;
+  border-width: 0px 0px 1px 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  transform: rotate(-45deg);
+  width: 11.31px;
+  height: 11.31px;
+  margin-left: 10px;
+}
+.get-in-touch-button {
+  line-height: 47px;
+}
+.hero .circle-logo {
+  margin-right: 11px;
+}
+.hero-content {
+  margin: 0 auto;
+  width: 584px;
+  text-align: center;
+  padding: 28px 0 259px 0;
+}
+.hero-content p {
+  width: 529px;
+  align-items: center;
+  color: #e5e5e5;
+  margin-bottom: 41px;
+}
+.hero-content .btn,
+.contact-us .btn {
+  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
+  border-radius: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 17px 28.5px 19px 27px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  cursor: pointer;
+  border: none;
+}
+.gravity-team {
+  padding: 128px 192px;
+  text-align: center;
+}
+
+.gravity-team h2 {
+  margin: 0 0 24px 0;
+}
+
+.gravity-team-text {
+  color: #e5e5e5;
+  width: 613px;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+.first-line-items {
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1056px;
+}
+.first-line-items div {
+  width: 204px;
+  padding: 32px 30px;
+}
+.first-line-items div:hover {
+  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
+  cursor: pointer;
+}
+
+.first-line-items h3,
+.first-line-items p {
+  margin: 0;
+}
+.first-line-items h3 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 58px;
+  margin-bottom: 15px;
+}
+.first-line-items p {
+  color: #e5e5e5;
+}
+
+#line {
+  position: absolute;
+  top: 196px;
+  width: 1056px;
+  height: 2px;
+  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
+  padding: 0;
+}
+#line:hover {
+  background: rgba(20, 22, 25, 1);
+}
+#line-vertical {
+  position: absolute;
+  width: 364px;
+  height: 2px;
+  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
+  padding: 0;
+  transform: rotate(90deg);
+}
+#line-vertical:nth-child(2n) {
+  left: 83px;
+  top: 181px;
+}
+#line-vertical:nth-child(2n + 1) {
+  top: 181px;
+}
+#line-vertical:last-child {
+  left: 611px;
+  top: 181px;
+}
+.background-image-with-rotate {
+  position: absolute;
+  z-index: -1;
+  top: 1029px;
+  left: -973px;
+}
+.background-image-with-circle {
+  left: -293px;
+  top: 2934px;
+  position: absolute;
+  z-index: -1;
+}
+.crypto-market {
+  padding: 0 192px;
+}
+.crypto-market-content h2 {
+  margin: 0;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.crypto-market-content p {
+  width: 621px;
+  margin: 0 auto;
+  color: #e5e5e5;
+  margin-bottom: 123px;
+  text-align: center;
+}
+.crypto-market-projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.crypto-market .first-block {
+  margin-bottom: 160px;
+}
+.crypto-market-projects h3 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  width: 405px;
+  margin-bottom: 27px;
+}
+.crypto-market-projects .text {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  width: 405px;
+  margin-bottom: 20px;
+}
+.crypto-market-projects p {
+  margin: 0;
+  color: #e5e5e5;
+}
+.crypto-market-projects p:nth-child(2n + 1) {
+  margin-bottom: 32px;
+  width: 396px;
+}
+.crypto-market-projects p:nth-child(4n) {
+  font-size: 18px;
+}
+.crypto-market-projects a,
+.join-gravity-team-content a {
+  color: #e5e5e5;
+  text-decoration: none;
+  position: relative;
+}
+.crypto-market-projects a:hover::before,
+.join-gravity-team-content a:hover::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
+  margin-top: 5px;
+}
+
+.crypto-market-projects-image {
+  margin-top: -210px;
+}
+.partners-content {
+  padding: 0 192px;
+}
+.partners-content-images {
+  position: relative;
+}
+.partners-content-images img:first-child {
+  position: absolute;
+  left: -33px;
+  top: -17px;
+}
+.partners-content-images img:nth-child(2n) {
+  position: absolute;
+  left: -91px;
+  top: 117px;
+}
+.partners-content-images img:last-child {
+  position: absolute;
+  left: 42px;
+  top: 74px;
+}
+.partners-block {
+  display: flex;
+  justify-content: space-between;
+}
+.partners-block h3 {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 78px;
+  width: 400px;
+  margin: 330px 0 190px 0;
+}
+.good-company-content {
+  padding: 128px 192px 0 192px;
+  text-align: center;
+}
+.good-company-content h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 57px;
+  line-height: 78px;
+  margin-bottom: 20px;
+}
+.good-company-content .first-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  width: 604px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+.good-company-content .arrows {
+  margin-bottom: 32px;
+  margin-right: 32px;
+}
+.good-company-content .second-text {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 44px;
+  width: 678px;
+  margin: 0 auto;
+  margin-bottom: 38px;
+}
+.good-company-content .third-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 19px;
+}
+.good-company-content .bottom-content {
+  margin-bottom: 140px;
+}
+.good-company-content .bottom-content p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 22px;
+}
+.circles {
+  padding: 8px 0;
+}
+.circle {
+  background: #333333;
+  border-radius: 4px;
+  width: 8px;
+  height: 8px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.active {
+  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
+}
+.join-gravity-team {
+  padding: 301px 192px 128px 192px;
+  position: relative;
+  z-index: 2;
+}
+.join-gravity-team-content h3 {
+  font-weight: 500;
+  font-size: 53px;
+  line-height: 78px;
+  width: 349px;
+  margin: 0;
+  padding: 0 132px 178px 0;
+}
+.join-gravity-team-content p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #e5e5e5;
+  width: 506px;
+  margin: 0;
+}
+.join-gravity-team-content p:first-child {
+  margin-bottom: 24px;
+}
+.join-gravity-team-content p:nth-child(2n) {
+  margin-bottom: 40px;
+}
+.join-gravity-team-content p:last-child {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.join-gravity-team-content img:first-child {
+  position: absolute;
+  left: 139px;
+  top: 167px;
+  z-index: -1;
+}
+.join-gravity-team-content img:nth-child(2n) {
+  position: absolute;
+  left: 434px;
+  top: 170px;
+}
+#arrow-icon {
+  position: static;
+}
+.contact-us {
+  text-align: center;
+  padding: 100px 192px 128px 192px;
+  position: relative;
+  z-index: 2;
+}
+.contact-us img {
+  position: absolute;
+  top: -32px;
+  left: 58px;
+  z-index: -1;
+}
+.contact-us h4 {
+  margin: 0;
+  margin-bottom: 24px;
+}
+.contact-us p {
+  color: #e5e5e5;
+  width: 624px;
+  margin: 0 auto;
+  margin-bottom: 41px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content ul {
+  margin: 0;
+  padding: 0 0 106px 32px;
+}
+.footer-content li {
+  list-style: none;
+}
+.footer-content li:first-child {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.53px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-content li:nth-child(-n + 2) {
+  margin-bottom: 11px;
+}
+.footer-content li:nth-child(n + 2) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #bcbcbc;
+}
+.footer-bottom-content ul {
+  margin: 0;
+  padding: 0 0 0 32px;
+}
+.footer-bottom-content li {
+  display: inline;
+  list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #bcbcbc;
+}
+.footer-bottom-content li:first-child {
+  margin-right: 645px;
+}
